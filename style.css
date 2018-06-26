@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+}
+
+#header {
+  background-color: #5DB3D3;
+  min-height: 10em;
+  padding: 2em 0;
+  text-align: center;
+  color: #D6DBDF;
+}
+
+#header h1 {
+  font-family: 'Righteous', cursive;
+  font-size: 4em;
+  margin: 1em auto;
+}
+
+#header h2 {
+  font-weight: normal;
+  margin: 1em auto;
+}
+
+#main-content {
+  height: auto;
+}
+
+#info {
+  background-color: #D6DBDF;
+  color: #3F3844;
+  text-align: center;
+}
+
+#hours {
+  padding: .5em;
+}
+
+.overall {
+  color: #3F3844;
+  width: 22em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: .5em 0;
+  margin: .5em auto;
+}
+
+.values {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 .5em;
+}
+
+.activities {
+  padding: 0 .5em;
+}
+
+.hours, .percent {
+  padding: .2em;
+}
+
+#prodAct {
+  background-color: #78D35D;
+}
+
+#nonprodAct {
+  background-color:#FC3D35;
+}
+
+#tracking {
+  display: flex;
+}
+
+.tr-container {
+  flex: 1;
+  padding: 1em 2em 1em 2em;
+  text-align: center;
+}
+
+.tr-container h3 {
+  text-align: center;
+}
+
+#tracker {
+  padding-bottom: 1em;
+}
+
+#description, #hr, #add, #type {
+  border: 1px solid #D6DBDF;
+  border-radius: 5px;
+  text-align: center;
+  margin: .3em 0;
+}
+
+#type {
+  height: 2.65em;
+  width: 10%;
+}
+
+#description {
+  width: 20%;
+  line-height: 2.5em;
+}
+
+#hr {
+  line-height: 2.5em;
+  width: 7%;
+}
+
+#add {
+  padding: .6em 1em;
+  background-color: #5DB3D3;
+  color: #ffffff;
+}
+
+#prod h3{
+  color: #78D35D;
+}
+
+#non-prod h3 {
+  color: #FC3D35;
+}
+
+ul {
+  list-style: none;
+  text-align: left;
+  margin: .5em 3em;
+}
+
+ul li a {
+  text-decoration: none;
+}
+
+.delete {
+  color: #FC3D35;
+  margin: 0 .4em;
+}
+
+.percent {
+  font-size: .8em;
+  margin: 0 .3em;
+}
+
+#perN {
+  background-color: #FF625A;
+}
+
+#perP {
+  background-color: #9DE486;
+}
+
+ul li span {
+  float: right;
+}
+
+
+@media(max-width: 450px) {
+  #header h1 {
+    font-size: 2.5em;
+  }
+  #tracking {
+    display: block;
+  }
+  .overall {
+    width: 17em;
+  }
+}
+
+@media(max-width: 700px) {
+
+}
